@@ -18,7 +18,7 @@ print(stopwords.words('english'))
 # ---------------------------------------------------
 # 2. Load fake.csv and true.csv (from Kaggle)
 # ---------------------------------------------------
-news_dataset = pd.read_csv("fake_news_final_small.csv")
+news_dataset = pd.read_csv("fake_news_finaldataset_small.csv")
 
 print(news_dataset.head())
 print(news_dataset["label"].value_counts())
@@ -104,3 +104,4 @@ for news, pred in zip(input_news, predictions):
         print("Prediction: The news is Real")
     else:
         print("Prediction: The news is Fake")
+
