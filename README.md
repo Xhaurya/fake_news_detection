@@ -59,3 +59,18 @@ Fake news spreads rapidly on online platforms and can cause serious misinformati
 ```bash
 git clone https://github.com/your-username/fake-news-detection.git
 cd fake-news-detection
+### Step 2: Install Required Libraries
+pip install pandas nltk scikit-learn
+### Step 3: Run the Program
+python FakeNewsDetection.py
+
+### Output
+
+Displays training and testing accuracy
+Predicts whether news is Real or Fake
+Supports custom news input
+
+### Results
+
+Good accuracy on training and test data
+Suitable for academic mini-projects
