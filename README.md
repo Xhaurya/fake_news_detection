@@ -59,8 +59,10 @@ Fake news spreads rapidly on online platforms and can cause serious misinformati
 ```bash
 git clone https://github.com/your-username/fake-news-detection.git
 cd fake-news-detection
+
 ### Step 2: Install Required Libraries
 pip install pandas nltk scikit-learn
+
 ### Step 3: Run the Program
 python FakeNewsDetection.py
 
